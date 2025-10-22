@@ -4,37 +4,20 @@ A simple and extensible chatbot flow builder built with React and React Flow. Th
 
 ## Features
 
-### 1. Text Node
-- Create multiple text message nodes in your flow
-- Each node has a source handle (right side) and target handle (left side)
-- Source handles can only have one outgoing connection
-- Target handles can accept multiple incoming connections
+ 1. Text Node
 
-### 2. Nodes Panel
-- Drag and drop nodes from the panel to the canvas
-- Currently supports Message nodes
-- Designed to be easily extensible for future node types
+ 2. Nodes Panel
 
-### 3. Edge Connections
-- Connect nodes by dragging from source handle to target handle
-- Visual feedback for valid connections
-- Curved gray lines represent the flow direction
+ 3. Edge Connections
 
-### 4. Settings Panel
-- Appears when you click on a node
-- Edit the text content of selected nodes
-- Back button to return to nodes panel
+ 4. Settings Panel
 
-### 5. Save Validation
-- Save button validates the flow before saving
-- Shows error if more than one node has empty target handles
-- Only one node (the start node) can have no incoming connections
+ 5. Save Validation
+
 
 ## Getting Started
 
-### Prerequisites
-- Node.js (version 14 or higher)
-- npm or yarn
+
 
 ### Installation
 
